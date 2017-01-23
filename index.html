@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jukebox</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+<body>
+	<h1>Jukebox!</h1>
+	<h1>Now playing: <span id="songname"></span><em><span id="playStatus"></span></em></h1>
+	<h1>Up next: <span id="songNext"> </span></h1>
+	<h1 id="controls">
+		<span class="glyphicon glyphicon-play"></span>
+		<span class="glyphicon glyphicon-stop"></span>
+		<span class="glyphicon glyphicon-step-forward"></span>
+		<span class="glyphicon glyphicon-random"></span>
+	</h1>
+	<audio id="track"></audio>
+	<div id="upnext"></div>
+
+<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="assets/js/scripts.js"></script>
+</body>
+</html>
